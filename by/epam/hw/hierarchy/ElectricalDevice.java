@@ -3,6 +3,7 @@ package by.epam.hw.hierarchy;
 import java.util.Objects;
 
 public abstract class ElectricalDevice extends Device {
+	private static final long serialVersionUID = 1L;
 
 	private String type;
 	private int powerConsumption;
