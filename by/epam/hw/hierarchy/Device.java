@@ -1,8 +1,10 @@
 package by.epam.hw.hierarchy;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Device{
+public abstract class Device implements Serializable{
+	private static final long serialVersionUID = 1L;
 
 	private String typeOfDevice;
 	private String brand;
