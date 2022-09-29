@@ -1,9 +1,8 @@
 package by.epam.hw.hierarchy;
 
-import java.io.Serializable;
 import java.util.Objects;
 
-public class Refrigerator extends ElectricalDevice implements Serializable {
+public class Refrigerator extends ElectricalDevice{
 	private static final long serialVersionUID = 1L;
 
 	private int freezerCapacity;
